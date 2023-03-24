@@ -10,17 +10,17 @@ void writeJsonToFile(QString &fileName)
     QJsonArray array;
     /*给array添加对象*/
     array.append("苏X");
-    array.append("BU520");
-    array.append("125平方");
-    array.append(120);
-    array.append("车:丰田");
+    array.append(" xx");
+    array.append("1223");
+    array.append(1323);
+    array.append("车:  汽车车");
     array.append(true);
     /*添加一个子数组*/
     QJsonArray subArray;
     subArray.append("江苏省");
     subArray.append("南京市");
-    subArray.append("建邺区");
-    subArray.append("奥体中心");
+    subArray.append("  浦口");
+    subArray.append("  xxx");
     array.append(subArray);
     /*添加一个子对象*/
     QJsonObject object;
